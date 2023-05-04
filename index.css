@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Smythe';
+    font-weight: 400;
+} 
+
+/* HEADER */
+
+header{
+    background-image: url("images/pic.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    width: 600px;
+    height: 167px;
+}
+
+h1{
+    padding-top: 46px; 
+    padding-left: 46px;
+    margin: 0;
+    font-size: 39px;
+    line-height: 24px;
+}
+
+h6{
+    padding-left: 46px;
+    margin-top: 19px;
+    font-size: 22.4216px;
+    line-height: 14px;
+}
+
+/* MENU-SECTION */
+
+.menu-section{
+    padding-top: 21px;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    width: 508px;
+    height: 140px;
+    justify-content: space-between;
+    margin: 46px 46px 0 46px;
+    border-bottom: 1px solid gray;
+}
+
+.item-info{
+    display: flex;
+    align-items: flex-start;
+}
+
+.item-graphic{
+    width: 80px;
+    font-size: 78.72px;
+    line-height: 98px;
+    opacity: 0.72;
+}
+
+.item-desc{
+    padding-left: 31px;
+}
+
+.item-desc p{
+    margin-top: 0;
+    color: #888888;
+    line-height: 24px;
+}
+
+h2{
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.increment-btn {
+    width: 50px;
+    height: 50px;
+    border: 0.5px solid gray;
+    border-radius: 25px;
+    background: #ffffff;
+}
+
+/* BILL-SECTION */
+
+.bill-section{
+    width: 508px;
+    height: 319px;
+    margin: 45px 46px 53px 46px;
+    border-bottom: 1px solid #888888
+}
+
+li{
+    list-style: none;
+    font-size: 28px;
+}
+
+.order-list{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    background: pink;
+    border-radius: 10px;
+}
+
+.remove-btn {
+    font-weight: 700;
+    font-size: 10px;
+    color: white;
+    border: none;
+    background: red;
+    border-radius: 5px;
+}
+
+.bill-header {
+    display: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+.order-list div {
+    display: flex;
+    gap: 0.5em;
+}
+
+.remove {
+    display: none;
+}
