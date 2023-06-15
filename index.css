@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
-    margin: 0;
+    display: inline-block;
+    margin: 0 auto;
     font-family: 'Smythe';
     font-weight: 400;
 } 
@@ -84,11 +85,26 @@ h3{
 }
 
 .increment-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50px;
     height: 50px;
     border: 0.5px solid gray;
     border-radius: 25px;
     background: #ffffff;
+    font-size: 80px;
+    color: rgb(64, 172, 64);
+    cursor: pointer;
+}
+
+.increment-btn:hover {
+    background-color: rgb(64, 172, 64);
+    color: white;
+}
+
+.increment-btn:active {
+    transform: scale(.9);
 }
 
 /* BILL-SECTION */
@@ -117,11 +133,16 @@ li{
 
 .remove-btn {
     font-weight: 700;
-    font-size: 10px;
+    font-size: 25px;
     color: white;
     border: none;
     background: red;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-btn:active {
+    transform: scale(.9);
 }
 
 .bill-header {

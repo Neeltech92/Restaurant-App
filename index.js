@@ -58,7 +58,9 @@ for(let item of menuArray){
                 <h3>$ ${item.price}</h3>
             </div>
         </div>
-        <button class='increment-btn' id='increment-btn' data-id='${item.id}'>+</button>
+        <button class='increment-btn' id='increment-btn' data-id='${item.id}'>
+            +
+        </button>
     </div>
     `
 }
