@@ -28,7 +28,7 @@ function incrementQuantity(itemId){
     renderOrderList( menuArray[itemId])
 }
 
-function renderOrderList(item){
+function renderOrderList(_item){
     let container = ``
     menuArray.forEach(function(item){
         if(item.qnty > 0){
@@ -43,7 +43,7 @@ function renderOrderList(item){
         </div>`
         }
     })
-     billSection.innerHTML = container
+    billSection.innerHTML = container
 }
     
  
@@ -59,7 +59,7 @@ for(let item of menuArray){
             </div>
         </div>
         <button class='increment-btn' id='increment-btn' data-id='${item.id}'>
-            +
+            &#43;
         </button>
     </div>
     `
